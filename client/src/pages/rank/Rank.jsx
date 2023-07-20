@@ -8,7 +8,6 @@ const Rank = () => {
   // get the score
   const location = useLocation();
   const score = location.state?.score;
-  console.log(score)
   // states
   const [rank, setRank] = useState(0);
 
