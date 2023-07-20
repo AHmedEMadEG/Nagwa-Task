@@ -1,0 +1,22 @@
+.rank {
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 5px;
+    color: cadetblue;
+}
+
+.try-again{
+    margin-top: 10px;
+    .link {
+        text-decoration: none;
+        background-color: green;
+        border-radius: 10px;
+        padding: 3px 6px;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+    }
+}

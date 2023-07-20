@@ -1,0 +1,12 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%)
+  ,url("https://shorturl.at/jktxE");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

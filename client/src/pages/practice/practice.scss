@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .word {
+        background-color: black;
+        border-radius: 10px;
+        padding: 5px 10px;
+        font-size: 35px;
+        font-weight: 900;
+        margin-bottom: 5px;
+        color: cadetblue;
+    }
+
+    .answers {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        button {
+            margin-left: 5px;
+            padding: 7px 13px;
+            border-radius: 10px;
+            border: none;
+            background-color: cadetblue;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+.progress-bar {
+    margin-top: 10px;
+    width: 650px;
+    height: 2vh;
+    background-color: #fff;
+    border-radius: 10px;
+
+    .progress {
+        height: 100%;
+        border-radius: 10px;
+        background-color: green;
+    }
+}
